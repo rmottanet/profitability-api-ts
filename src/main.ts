@@ -11,7 +11,7 @@ import * as TaxasService from './services/taxasService.ts';
 const app = new Application();
 
 app.use(oakCors({
-	origin: "https://rmottanet.github.io/profitability/";
+	origin: "https://rmottanet.github.io/profitability/"
 }));
 
 app.use(async (ctx, next) => {
