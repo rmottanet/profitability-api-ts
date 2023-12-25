@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+	"skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "deno",
+    "node_modules",
+    "dist"
+  ]
+}
+
+	
+/*
+  Nome do Projeto: Profitability API
+  Descrição: Cálculo de taxa líquida de contratos de renda fixa com referência a SELIC e ao IPCA.
+  Autor: Rodrigo Motta
+  Outras informações: Veja a documentação.
+*/
